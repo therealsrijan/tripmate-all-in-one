@@ -1,12 +1,7 @@
-import problemBg from "@/assets/problem-bg.jpg";
-
 const ProblemSection = () => {
   return (
-    <section 
-      className="py-20 px-6 relative bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url(${problemBg})` }}
-    >
-      <div className="absolute inset-0 bg-background/85"></div>
+    <section className="py-20 px-6 relative">
+      <div className="absolute inset-0 bg-muted/20"></div>
       <div className="container max-w-4xl mx-auto text-center space-y-8 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold text-foreground">
           Group travel planning shouldn't need{" "}

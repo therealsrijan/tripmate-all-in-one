@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroDashboard from "@/assets/hero-dashboard.jpg";
 
 const HeroSection = () => {
   return (
@@ -31,17 +30,16 @@ const HeroSection = () => {
           </Button>
         </div>
 
-        {/* Hero image */}
-        <div className="pt-12 pb-8">
-          <div className="relative mx-auto max-w-4xl">
-            <img
-              src={heroDashboard}
-              alt="TripMate dashboard interface showing trip planning features"
-              className="w-full h-auto rounded-2xl shadow-feature transition-all duration-500 hover:scale-[1.02]"
-            />
-            {/* Floating accent elements */}
-            <div className="absolute -top-4 -right-4 w-20 h-20 bg-accent/20 rounded-full blur-xl"></div>
-            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-primary/10 rounded-full blur-xl"></div>
+        {/* Abstract visual elements */}
+        <div className="pt-12 pb-8 relative">
+          <div className="relative mx-auto max-w-4xl h-64 flex items-center justify-center">
+            {/* Floating abstract elements */}
+            <div className="absolute top-8 left-1/4 w-32 h-32 bg-primary/10 rounded-full blur-2xl animate-pulse"></div>
+            <div className="absolute bottom-8 right-1/3 w-24 h-24 bg-accent/15 rounded-full blur-xl"></div>
+            <div className="absolute top-1/2 right-1/4 w-20 h-20 bg-primary-glow/20 rounded-full blur-lg"></div>
+            
+            {/* Central abstract shape */}
+            <div className="w-48 h-48 bg-hero-gradient opacity-10 rounded-3xl blur-3xl"></div>
           </div>
         </div>
       </div>
