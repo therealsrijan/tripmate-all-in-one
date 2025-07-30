@@ -24,9 +24,11 @@ const HeroSection = () => {
 
         {/* CTA Button */}
         <div className="flex justify-center pt-4">
-          <Button variant="hero" size="lg" className="text-lg px-8 py-6 h-auto">
-            <ArrowRight className="w-5 h-5" />
-            Join the Waitlist
+          <Button variant="hero" size="lg" className="text-lg px-8 py-6 h-auto" asChild>
+            <a href="https://tally.so/r/3lkZzp" target="_blank" rel="noopener noreferrer">
+              <ArrowRight className="w-5 h-5" />
+              Join the Waitlist
+            </a>
           </Button>
         </div>
 
