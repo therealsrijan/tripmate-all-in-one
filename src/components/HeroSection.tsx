@@ -31,15 +31,12 @@ const HeroSection = () => {
         </div>
 
         {/* Abstract visual elements */}
-        <div className="pt-12 pb-8 relative">
-          <div className="relative mx-auto max-w-4xl h-64 flex items-center justify-center">
+        <div className="pt-6 pb-4 relative">
+          <div className="relative mx-auto max-w-4xl h-16 flex items-center justify-center">
             {/* Floating abstract elements */}
-            <div className="absolute top-8 left-1/4 w-32 h-32 bg-primary/10 rounded-full blur-2xl animate-pulse"></div>
-            <div className="absolute bottom-8 right-1/3 w-24 h-24 bg-accent/15 rounded-full blur-xl"></div>
-            <div className="absolute top-1/2 right-1/4 w-20 h-20 bg-primary-glow/20 rounded-full blur-lg"></div>
-            
-            {/* Central abstract shape */}
-            <div className="w-48 h-48 bg-hero-gradient opacity-10 rounded-3xl blur-3xl"></div>
+            <div className="absolute top-2 left-1/4 w-16 h-16 bg-primary/5 rounded-full blur-xl animate-pulse"></div>
+            <div className="absolute bottom-2 right-1/3 w-12 h-12 bg-accent/10 rounded-full blur-lg"></div>
+            <div className="absolute top-1/2 right-1/4 w-10 h-10 bg-primary-glow/15 rounded-full blur-md"></div>
           </div>
         </div>
       </div>
