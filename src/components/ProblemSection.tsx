@@ -1,23 +1,46 @@
+import problemBg from "@/assets/problem-bg.jpg";
+
 const ProblemSection = () => {
   return (
-    <section className="py-20 px-6 bg-muted/30">
-      <div className="container max-w-4xl mx-auto text-center space-y-8">
+    <section 
+      className="py-20 px-6 relative bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(${problemBg})` }}
+    >
+      <div className="absolute inset-0 bg-background/85"></div>
+      <div className="container max-w-4xl mx-auto text-center space-y-8 relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold text-foreground">
           Group travel planning shouldn't need{" "}
           <span className="text-primary">7 apps</span>
         </h2>
         
-        <div className="text-lg md:text-xl text-muted-foreground leading-relaxed space-y-6 max-w-3xl mx-auto">
-          <p>
-            Your group chat is flooded with flight screenshots. Expenses are scattered across Splitwise, Venmo, and random notes. Itineraries live in Google Docs that no one can find.
-          </p>
+        <div className="max-w-3xl mx-auto space-y-6">
+          <div className="grid md:grid-cols-2 gap-6 text-left">
+            <div className="space-y-3">
+              <div className="text-muted-foreground">
+                • Flight screenshots flooding your chat
+              </div>
+              <div className="text-muted-foreground">
+                • Expenses scattered across 3+ apps
+              </div>
+              <div className="text-muted-foreground">
+                • Lost itineraries in Google Docs
+              </div>
+            </div>
+            <div className="space-y-3">
+              <div className="text-muted-foreground">
+                • WhatsApp threads everywhere
+              </div>
+              <div className="text-muted-foreground">
+                • Email booking chaos
+              </div>
+              <div className="text-muted-foreground">
+                • Who paid for what?
+              </div>
+            </div>
+          </div>
           
-          <p>
-            Meanwhile, you're juggling WhatsApp threads, booking confirmations in your email, and trying to remember who paid for what.
-          </p>
-          
-          <p className="text-foreground font-semibold text-xl">
-            TripMate brings it all together in one beautiful, organized dashboard that actually makes group travel enjoyable.
+          <p className="text-foreground font-semibold text-xl text-center pt-4">
+            TripMate brings it all together in one beautiful dashboard.
           </p>
         </div>
       </div>
