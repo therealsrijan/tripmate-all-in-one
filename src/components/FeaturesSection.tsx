@@ -43,24 +43,24 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <section className="py-20 px-6">
+    <section id="features" className="py-24 px-6 relative">
       <div className="container max-w-6xl mx-auto">
         {/* Section header */}
-        <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+        <div className="text-center space-y-6 mb-20">
+          <h2 className="text-4xl md:text-6xl font-bold text-foreground">
             Everything you need, beautifully organized
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Six powerful features that transform chaotic group planning into smooth collaboration.
           </p>
         </div>
 
         {/* Features grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
           {features.map((feature, index) => (
             <Card 
               key={index}
-              className="p-8 bg-feature-gradient border-border/50 hover:shadow-soft transition-all duration-300 hover:scale-[1.02] group"
+              className="p-8 md:p-10 bg-feature-gradient border-border/50 hover:shadow-card transition-all duration-300 hover:scale-[1.02] group hover:border-primary/20"
             >
               <div className="space-y-4">
                 <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">

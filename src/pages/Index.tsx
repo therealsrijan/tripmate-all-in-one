@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import ProblemSection from "@/components/ProblemSection";
 import FeaturesSection from "@/components/FeaturesSection";
@@ -8,6 +9,7 @@ import OutroSection from "@/components/OutroSection";
 const Index = () => {
   return (
     <div className="min-h-screen bg-page-gradient">
+      <Header />
       <HeroSection />
       <ProblemSection />
       <FeaturesSection />

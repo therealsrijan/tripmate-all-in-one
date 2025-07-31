@@ -1,11 +1,11 @@
 const ProblemSection = () => {
   return (
-    <section className="py-20 px-6 relative">
+    <section id="problem" className="py-24 px-6 relative">
       <div className="absolute inset-0 bg-muted/20"></div>
-      <div className="container max-w-4xl mx-auto text-center space-y-8 relative z-10">
-        <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+      <div className="container max-w-4xl mx-auto text-center space-y-12 relative z-10">
+        <h2 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
           Group travel planning shouldn't need{" "}
-          <span className="text-primary">7 apps</span>
+          <span className="bg-hero-gradient bg-clip-text text-transparent">7 apps</span>
         </h2>
         
         <div className="max-w-3xl mx-auto space-y-6">
@@ -34,7 +34,7 @@ const ProblemSection = () => {
             </div>
           </div>
           
-          <p className="text-foreground font-semibold text-xl text-center pt-4">
+          <p className="text-foreground font-semibold text-xl md:text-2xl text-center pt-6">
             TripMate brings it all together in one beautiful dashboard.
           </p>
         </div>

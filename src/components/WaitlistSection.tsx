@@ -3,13 +3,13 @@ import { ArrowRight, Star, Clock, Gift } from "lucide-react";
 
 const WaitlistSection = () => {
   return (
-    <section className="py-20 px-6">
-      <div className="container max-w-4xl mx-auto text-center space-y-12">
-        <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+    <section id="waitlist" className="py-24 px-6 relative">
+      <div className="container max-w-4xl mx-auto text-center space-y-16">
+        <h2 className="text-4xl md:text-6xl font-bold text-foreground">
           We're opening early access soon
         </h2>
         
-        <div className="bg-card-gradient rounded-2xl p-8 md:p-12 shadow-card border border-border/50">
+        <div className="bg-card-gradient rounded-3xl p-10 md:p-16 shadow-feature border border-border/50 hover:border-primary/20 transition-all duration-300">
           {/* Perks grid */}
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div className="space-y-3">
@@ -39,9 +39,11 @@ const WaitlistSection = () => {
           
           {/* CTA */}
           <div className="space-y-4">
-            <Button variant="waitlist" size="lg" className="text-lg px-8 py-6 h-auto">
-              <ArrowRight className="w-5 h-5" />
-              Join the Waitlist
+            <Button variant="waitlist" size="lg" className="text-lg px-10 py-7 h-auto shadow-card hover:shadow-feature transition-all duration-300" asChild>
+              <a href="https://tally.so/r/3lkZzp" target="_blank" rel="noopener noreferrer">
+                <ArrowRight className="w-5 h-5" />
+                Join the Waitlist
+              </a>
             </Button>
             <p className="text-sm text-muted-foreground">
               Join 2,000+ travelers already on the list

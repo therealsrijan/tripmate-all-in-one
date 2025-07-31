@@ -10,9 +10,9 @@ const upcomingFeatures = [
 
 const ComingSoonSection = () => {
   return (
-    <section className="py-20 px-6 bg-muted/20">
-      <div className="container max-w-4xl mx-auto text-center space-y-12">
-        <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+    <section id="coming-soon" className="py-24 px-6 bg-muted/20 relative">
+      <div className="container max-w-4xl mx-auto text-center space-y-16">
+        <h2 className="text-4xl md:text-6xl font-bold text-foreground">
           We're just getting started
         </h2>
         
