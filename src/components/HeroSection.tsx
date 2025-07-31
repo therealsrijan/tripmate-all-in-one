@@ -4,33 +4,29 @@ import { ArrowRight } from "lucide-react";
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-6 py-20 pt-32 overflow-hidden">
-      {/* Enhanced background with travel elements */}
-      <div className="absolute inset-0 bg-hero-gradient opacity-8"></div>
-      <div className="absolute inset-0">
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-gradient-to-br from-primary/10 to-transparent rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-1/3 right-1/3 w-48 h-48 bg-gradient-to-tl from-accent/8 to-transparent rounded-full blur-2xl animate-pulse" style={{animationDelay: '2s'}}></div>
-      </div>
+      {/* Background gradient */}
+      <div className="absolute inset-0 bg-hero-gradient opacity-5"></div>
       
       <div className="container max-w-6xl mx-auto text-center space-y-8 relative z-10">
         {/* Main headline */}
         <div className="space-y-8">
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-foreground animate-fade-in-up">
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-foreground animate-fade-in">
             Everything your trip needs —{" "}
             <span className="bg-hero-gradient bg-clip-text text-transparent">
               in one box
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed animate-fade-in-up" style={{animationDelay: '0.2s'}}>
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed animate-fade-in" style={{animationDelay: '0.2s'}}>
             TripMate takes care of the planning, coordination, and chaos — so you can focus on the fun.
           </p>
         </div>
 
         {/* CTA Button */}
-        <div className="flex justify-center pt-6 animate-scale-in" style={{animationDelay: '0.4s'}}>
-          <Button variant="hero" size="lg" className="text-lg px-10 py-7 h-auto shadow-premium hover:shadow-card hover:scale-105 transition-all duration-300 group" asChild>
+        <div className="flex justify-center pt-6 animate-fade-in" style={{animationDelay: '0.4s'}}>
+          <Button variant="hero" size="lg" className="text-lg px-10 py-7 h-auto shadow-feature hover:shadow-card transition-all duration-300" asChild>
             <a href="https://tally.so/r/3lkZzp" target="_blank" rel="noopener noreferrer">
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+              <ArrowRight className="w-5 h-5" />
               Join the Waitlist
             </a>
           </Button>
