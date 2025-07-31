@@ -72,11 +72,13 @@ export default {
 				'card-gradient': 'var(--gradient-card)',
 				'feature-gradient': 'var(--gradient-feature)',
 				'page-gradient': 'var(--gradient-page)',
+				'travel-bg': 'var(--gradient-travel-bg)',
 			},
 			boxShadow: {
 				'soft': 'var(--shadow-soft)',
 				'card': 'var(--shadow-card)',
 				'feature': 'var(--shadow-feature)',
+				'premium': 'var(--shadow-premium)',
 			},
 			transitionTimingFunction: {
 				'smooth': 'var(--transition-smooth)',
@@ -107,7 +109,12 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+				'scale-in': 'scaleIn 0.5s ease-out forwards',
+				'slide-in-left': 'slideInLeft 0.6s ease-out forwards',
+				'slide-in-right': 'slideInRight 0.6s ease-out forwards',
+				'float': 'float 6s ease-in-out infinite',
 			}
 		}
 	},
