@@ -17,7 +17,7 @@ const WaitlistSection = () => {
                 <Star className="w-6 h-6 text-primary" />
               </div>
               <h3 className="font-semibold text-foreground">Beta Access</h3>
-              <p className="text-sm text-muted-foreground">Be among the first to use TripMate</p>
+              <p className="text-sm text-muted-foreground">Be among the first to use TravelKaro</p>
             </div>
             
             <div className="space-y-3">

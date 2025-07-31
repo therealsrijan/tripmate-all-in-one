@@ -22,7 +22,7 @@ const features = [
   {
     icon: Bed,
     title: "Stays & Transport in One View",
-    description: "Compare and book accommodations and flights directly in TripMate with group approval features."
+    description: "Compare and book accommodations and flights directly in TravelKaro with group approval features."
   },
   {
     icon: Shield,

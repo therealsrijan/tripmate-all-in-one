@@ -8,7 +8,7 @@ const Header = () => {
               <span className="text-white font-bold text-sm">T</span>
             </div>
             <span className="text-2xl font-bold bg-hero-gradient bg-clip-text text-transparent">
-              TripMate
+              TravelKaro
             </span>
           </div>
           

@@ -18,7 +18,7 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed animate-fade-in" style={{animationDelay: '0.2s'}} data-aos="fade-up" data-aos-delay="200">
-            TripMate takes care of the planning, coordination, and chaos — so you can focus on the fun.
+            TravelKaro takes care of the planning, coordination, and chaos — so you can focus on the fun.
           </p>
         </div>
 

@@ -35,7 +35,7 @@ const ProblemSection = () => {
           </div>
           
           <p className="text-foreground font-semibold text-xl md:text-2xl text-center pt-6" data-aos="fade-in" data-aos-delay="300">
-            TripMate brings it all together in one beautiful dashboard.
+            TravelKaro brings it all together in one beautiful dashboard.
           </p>
         </div>
       </div>
