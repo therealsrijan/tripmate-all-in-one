@@ -1,6 +1,6 @@
 const OutroSection = () => {
   return (
-    <section className="py-20 px-6 border-t border-border/30 bg-muted/10">
+    <section className="py-20 px-6 border-t border-border/30 bg-muted/10" data-aos="fade-in" data-aos-duration="1200">
       <div className="container max-w-3xl mx-auto text-center">
         <p className="text-2xl md:text-3xl text-muted-foreground italic font-light leading-relaxed">
           If you've planned a trip before, you know why this matters.

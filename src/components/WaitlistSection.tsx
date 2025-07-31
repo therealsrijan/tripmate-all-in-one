@@ -3,15 +3,15 @@ import { ArrowRight, Star, Clock, Gift } from "lucide-react";
 
 const WaitlistSection = () => {
   return (
-    <section id="waitlist" className="py-24 px-6 relative">
+    <section id="waitlist" className="py-24 px-6 relative" data-aos="fade-up" data-aos-duration="1000">
       <div className="container max-w-4xl mx-auto text-center space-y-16">
-        <h2 className="text-4xl md:text-6xl font-bold text-foreground">
+        <h2 className="text-4xl md:text-6xl font-bold text-foreground" data-aos="fade-up" data-aos-delay="100">
           We're opening early access soon
         </h2>
         
         <div className="bg-card-gradient rounded-3xl p-10 md:p-16 shadow-feature border border-border/50 hover:border-primary/20 transition-all duration-300">
           {/* Perks grid */}
-          <div className="grid md:grid-cols-3 gap-6 mb-8">
+          <div className="grid md:grid-cols-3 gap-6 mb-8" data-aos="fade-up" data-aos-delay="200">
             <div className="space-y-3">
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mx-auto">
                 <Star className="w-6 h-6 text-primary" />
@@ -38,7 +38,7 @@ const WaitlistSection = () => {
           </div>
           
           {/* CTA */}
-          <div className="space-y-4">
+          <div className="space-y-4" data-aos="zoom-in" data-aos-delay="300">
             <Button variant="waitlist" size="lg" className="text-lg px-10 py-7 h-auto shadow-card hover:shadow-feature transition-all duration-300" asChild>
               <a href="https://tally.so/r/3lkZzp" target="_blank" rel="noopener noreferrer">
                 <ArrowRight className="w-5 h-5" />

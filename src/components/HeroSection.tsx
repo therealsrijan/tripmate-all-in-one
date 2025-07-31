@@ -3,27 +3,27 @@ import { ArrowRight } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6 py-20 pt-32 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center px-6 py-20 pt-32 overflow-hidden" data-aos="fade-up" data-aos-duration="1000">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-hero-gradient opacity-5"></div>
       
       <div className="container max-w-6xl mx-auto text-center space-y-8 relative z-10">
         {/* Main headline */}
         <div className="space-y-8">
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-foreground animate-fade-in">
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-foreground animate-fade-in" data-aos="fade-up" data-aos-delay="100">
             Everything your trip needs —{" "}
             <span className="bg-hero-gradient bg-clip-text text-transparent">
               in one box
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed animate-fade-in" style={{animationDelay: '0.2s'}}>
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed animate-fade-in" style={{animationDelay: '0.2s'}} data-aos="fade-up" data-aos-delay="200">
             TripMate takes care of the planning, coordination, and chaos — so you can focus on the fun.
           </p>
         </div>
 
         {/* CTA Button */}
-        <div className="flex justify-center pt-6 animate-fade-in" style={{animationDelay: '0.4s'}}>
+        <div className="flex justify-center pt-6 animate-fade-in" style={{animationDelay: '0.4s'}} data-aos="zoom-in" data-aos-delay="300">
           <Button variant="hero" size="lg" className="text-lg px-10 py-7 h-auto shadow-feature hover:shadow-card transition-all duration-300" asChild>
             <a href="https://tally.so/r/3lkZzp" target="_blank" rel="noopener noreferrer">
               <ArrowRight className="w-5 h-5" />
@@ -33,7 +33,7 @@ const HeroSection = () => {
         </div>
 
         {/* Abstract visual elements */}
-        <div className="pt-8 pb-6 relative animate-fade-in" style={{animationDelay: '0.6s'}}>
+        <div className="pt-8 pb-6 relative animate-fade-in" style={{animationDelay: '0.6s'}} data-aos="fade-in" data-aos-delay="400">
           <div className="relative mx-auto max-w-5xl h-20 flex items-center justify-center">
             {/* Floating abstract elements */}
             <div className="absolute top-2 left-1/4 w-20 h-20 bg-primary/8 rounded-full blur-xl animate-pulse"></div>

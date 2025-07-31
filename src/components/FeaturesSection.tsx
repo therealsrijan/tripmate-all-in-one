@@ -43,10 +43,10 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <section id="features" className="py-24 px-6 relative">
+    <section id="features" className="py-24 px-6 relative" data-aos="fade-up" data-aos-duration="1000">
       <div className="container max-w-6xl mx-auto">
         {/* Section header */}
-        <div className="text-center space-y-6 mb-20">
+        <div className="text-center space-y-6 mb-20" data-aos="fade-up" data-aos-delay="100">
           <h2 className="text-4xl md:text-6xl font-bold text-foreground">
             Everything you need, beautifully organized
           </h2>
@@ -61,6 +61,8 @@ const FeaturesSection = () => {
             <Card 
               key={index}
               className="p-8 md:p-10 bg-feature-gradient border-border/50 hover:shadow-card transition-all duration-300 hover:scale-[1.02] group hover:border-primary/20"
+              data-aos="zoom-in"
+              data-aos-delay={200 + index * 100}
             >
               <div className="space-y-4">
                 <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
